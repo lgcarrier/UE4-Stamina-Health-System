@@ -1,50 +1,37 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html>
+
   <head>
-    <meta charset="UTF-8">
-    <title>UE4-stamina-health-system by lgcarrier</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="UE4-stamina-health-system : Unreal Engine 4 - Stamina and Health System (Blueprints)">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>UE4-stamina-health-system</title>
   </head>
+
   <body>
-    <section class="page-header">
-      <h1 class="project-name">UE4-stamina-health-system</h1>
-      <h2 class="project-tagline">Unreal Engine 4 - Stamina and Health System (Blueprints)</h2>
-      <a href="https://github.com/lgcarrier/UE4-Stamina-Health-System" class="btn">View on GitHub</a>
-      <a href="https://github.com/lgcarrier/UE4-Stamina-Health-System/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/lgcarrier/UE4-Stamina-Health-System/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
 
-    <section class="main-content">
-      <p>This is my first experience with Unreal Engine 4 (4.10). I wanted to build a complete stamina and health system for an FPS game.</p>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/lgcarrier/UE4-Stamina-Health-System">View on GitHub</a>
 
-<h3>
-<a id="blueprints-for-heads-up-displays-hud" class="anchor" href="#blueprints-for-heads-up-displays-hud" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Blueprints for heads-up displays (HUD)</h3>
+          <h1 id="project_title">UE4-stamina-health-system</h1>
+          <h2 id="project_tagline">Unreal Engine 4 - Stamina and Health System (Blueprints)</h2>
 
-<ul>
-<li>Stamina HUD</li>
-<li>Health HUD</li>
-<li>Blood Marks HUD</li>
-</ul>
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/lgcarrier/UE4-Stamina-Health-System/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/lgcarrier/UE4-Stamina-Health-System/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
 
-<h3>
-<a id="blueprints-for-systems" class="anchor" href="#blueprints-for-systems" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Blueprints for systems</h3>
-
-<ul>
-<li>Stamina system</li>
-<li>Health system</li>
-<li>Character Movement system</li>
-</ul>
-
-<h3>
-<a id="blueprints-for-menus" class="anchor" href="#blueprints-for-menus" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Blueprints for menus</h3>
-
-<ul>
-<li>DeathMenu (used to respawn when you die)</li>
-</ul>
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p>This is my first experience with Unreal Engine 4 (4.10). I wanted to build a complete stamina and health system for an FPS game.</p>
 
 <h3>
 <a id="blueprints" class="anchor" href="#blueprints" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Blueprints</h3>
@@ -53,203 +40,203 @@
 
 <hr>
 
-<h3>
-<a id="how-to-use-the-systems" class="anchor" href="#how-to-use-the-systems" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to use the systems</h3>
-
 <h2>
-<a id="initialize-the-systems-within-a-characters-eventgraph-blueprint" class="anchor" href="#initialize-the-systems-within-a-characters-eventgraph-blueprint" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Initialize the systems within a character's EventGraph Blueprint</h2>
+<a id="how-to-use-the-systems" class="anchor" href="#how-to-use-the-systems" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to use the systems</h2>
+
+<h3>
+<a id="initialize-the-systems-within-a-characters-eventgraph-blueprint" class="anchor" href="#initialize-the-systems-within-a-characters-eventgraph-blueprint" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Initialize the systems within a character's EventGraph Blueprint</h3>
 
 <p><img src="images/Character_EventGraph_Init.png" alt=""></p>
 
-<h2>
-<a id="run" class="anchor" href="#run" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Run</h2>
+<h3>
+<a id="run" class="anchor" href="#run" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Run</h3>
 
 <p><img src="images/Character_EventGraph_Run.png" alt=""></p>
 
-<h2>
-<a id="jump" class="anchor" href="#jump" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Jump</h2>
+<h3>
+<a id="jump" class="anchor" href="#jump" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Jump</h3>
 
 <p><img src="images/Character_EventGraph_Jump.png" alt=""></p>
 
-<h2>
-<a id="aim" class="anchor" href="#aim" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Aim</h2>
+<h3>
+<a id="aim" class="anchor" href="#aim" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Aim</h3>
 
 <p><img src="images/Character_EventGraph_Aim.png" alt=""></p>
 
-<h2>
-<a id="tick" class="anchor" href="#tick" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Tick</h2>
+<h3>
+<a id="tick" class="anchor" href="#tick" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Tick</h3>
 
 <p><img src="images/Character_EventGraph_Tick.png" alt=""></p>
 
-<h2>
-<a id="inflict-damage" class="anchor" href="#inflict-damage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Inflict Damage</h2>
+<h3>
+<a id="inflict-damage" class="anchor" href="#inflict-damage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Inflict Damage</h3>
 
 <p><img src="images/Character_EventGraph_InflictDamage.png" alt=""></p>
 
 <hr>
 
-<h3>
-<a id="character-movement-system" class="anchor" href="#character-movement-system" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Character Movement System</h3>
-
 <h2>
-<a id="eventgraph" class="anchor" href="#eventgraph" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>EventGraph</h2>
+<a id="character-movement-system" class="anchor" href="#character-movement-system" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Character Movement System</h2>
+
+<h3>
+<a id="eventgraph" class="anchor" href="#eventgraph" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>EventGraph</h3>
 
 <p><img src="images/CharacterMovementSystem_EventGraph.png" alt=""></p>
 
-<h2>
-<a id="ismoving" class="anchor" href="#ismoving" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>IsMoving</h2>
+<h3>
+<a id="ismoving" class="anchor" href="#ismoving" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>IsMoving</h3>
 
 <p><img src="images/CharacterMovementSystem_IsMoving.png" alt=""></p>
 
-<h2>
-<a id="jump-1" class="anchor" href="#jump-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Jump</h2>
+<h3>
+<a id="jump-1" class="anchor" href="#jump-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Jump</h3>
 
 <p><img src="images/CharacterMovementSystem_Jump.png" alt=""></p>
 
-<h2>
-<a id="run-1" class="anchor" href="#run-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Run</h2>
+<h3>
+<a id="run-1" class="anchor" href="#run-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Run</h3>
 
 <p><img src="images/CharacterMovementSystem_Run.png" alt=""></p>
 
-<h2>
-<a id="stoprunning" class="anchor" href="#stoprunning" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>StopRunning</h2>
+<h3>
+<a id="stoprunning" class="anchor" href="#stoprunning" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>StopRunning</h3>
 
 <p><img src="images/CharacterMovementSystem_StopRunning.png" alt=""></p>
 
 <hr>
 
-<h3>
-<a id="stamina-system" class="anchor" href="#stamina-system" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Stamina System</h3>
-
 <h2>
-<a id="eventgraph-1" class="anchor" href="#eventgraph-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>EventGraph</h2>
+<a id="stamina-system" class="anchor" href="#stamina-system" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Stamina System</h2>
+
+<h3>
+<a id="eventgraph-1" class="anchor" href="#eventgraph-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>EventGraph</h3>
 
 <p><img src="images/StaminaSystem_EventGraph.png" alt=""></p>
 
-<h2>
-<a id="ismoving-1" class="anchor" href="#ismoving-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>IsMoving</h2>
+<h3>
+<a id="ismoving-1" class="anchor" href="#ismoving-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>IsMoving</h3>
 
 <p><img src="images/StaminaSystem_RegenStamina.png" alt=""></p>
 
-<h2>
-<a id="jump-2" class="anchor" href="#jump-2" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Jump</h2>
+<h3>
+<a id="jump-2" class="anchor" href="#jump-2" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Jump</h3>
 
 <p><img src="images/StaminaSystem_DecreaseStamina.png" alt=""></p>
 
-<h3>
-<a id="stamina-hud" class="anchor" href="#stamina-hud" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Stamina HUD</h3>
-
 <h2>
-<a id="designer" class="anchor" href="#designer" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Designer</h2>
+<a id="stamina-hud" class="anchor" href="#stamina-hud" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Stamina HUD</h2>
+
+<h3>
+<a id="designer" class="anchor" href="#designer" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Designer</h3>
 
 <p><img src="images/StaminaHUD_Designer.png" alt=""></p>
 
-<h2>
-<a id="eventgraph-2" class="anchor" href="#eventgraph-2" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>EventGraph</h2>
+<h3>
+<a id="eventgraph-2" class="anchor" href="#eventgraph-2" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>EventGraph</h3>
 
 <p><img src="images/StaminaHUD_EventGraph.png" alt=""></p>
 
-<h2>
-<a id="gethealthamount" class="anchor" href="#gethealthamount" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>GetHealthAmount</h2>
+<h3>
+<a id="gethealthamount" class="anchor" href="#gethealthamount" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>GetHealthAmount</h3>
 
 <p><img src="images/StaminaHUD_GetStaminaAmount.png" alt=""></p>
 
-<h2>
-<a id="icon" class="anchor" href="#icon" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Icon</h2>
+<h3>
+<a id="icon" class="anchor" href="#icon" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Icon</h3>
 
 <p><img src="images/stamina_hud_icon.png" alt=""></p>
 
 <hr>
 
-<h3>
-<a id="health-system" class="anchor" href="#health-system" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Health System</h3>
-
 <h2>
-<a id="eventgraph-3" class="anchor" href="#eventgraph-3" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>EventGraph</h2>
+<a id="health-system" class="anchor" href="#health-system" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Health System</h2>
+
+<h3>
+<a id="eventgraph-3" class="anchor" href="#eventgraph-3" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>EventGraph</h3>
 
 <p><img src="images/HealthSystem_EventGraph.png" alt=""></p>
 
-<h2>
-<a id="regenhealth" class="anchor" href="#regenhealth" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>RegenHealth</h2>
+<h3>
+<a id="regenhealth" class="anchor" href="#regenhealth" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>RegenHealth</h3>
 
 <p><img src="images/HealthSystem_RegenHealth.png" alt=""></p>
 
-<h2>
-<a id="decreasehealth" class="anchor" href="#decreasehealth" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>DecreaseHealth</h2>
+<h3>
+<a id="decreasehealth" class="anchor" href="#decreasehealth" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>DecreaseHealth</h3>
 
 <p><img src="images/HealthSystem_DecreaseHealth.png" alt=""></p>
 
-<h2>
-<a id="death" class="anchor" href="#death" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Death</h2>
+<h3>
+<a id="death" class="anchor" href="#death" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Death</h3>
 
 <p><img src="images/HealthSystem_Death.png" alt=""></p>
 
-<h2>
-<a id="checkhealth" class="anchor" href="#checkhealth" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>CheckHealth</h2>
+<h3>
+<a id="checkhealth" class="anchor" href="#checkhealth" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>CheckHealth</h3>
 
 <p><img src="images/HealthSystem_CheckHealth.png" alt=""></p>
 
-<h2>
-<a id="addbloodmarks" class="anchor" href="#addbloodmarks" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>AddBloodMarks</h2>
+<h3>
+<a id="addbloodmarks" class="anchor" href="#addbloodmarks" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>AddBloodMarks</h3>
 
 <p><img src="images/HealthSystem_AddBloodMarks.png" alt=""></p>
 
-<h3>
-<a id="health-hud" class="anchor" href="#health-hud" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Health HUD</h3>
-
 <h2>
-<a id="designer-1" class="anchor" href="#designer-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Designer</h2>
+<a id="health-hud" class="anchor" href="#health-hud" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Health HUD</h2>
+
+<h3>
+<a id="designer-1" class="anchor" href="#designer-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Designer</h3>
 
 <p><img src="images/HealthHUD_Designer.png" alt=""></p>
 
-<h2>
-<a id="eventgraph-4" class="anchor" href="#eventgraph-4" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>EventGraph</h2>
+<h3>
+<a id="eventgraph-4" class="anchor" href="#eventgraph-4" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>EventGraph</h3>
 
 <p><img src="images/HealthHUD_EventGraph.png" alt=""></p>
 
-<h2>
-<a id="gethealthamount-1" class="anchor" href="#gethealthamount-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>GetHealthAmount</h2>
+<h3>
+<a id="gethealthamount-1" class="anchor" href="#gethealthamount-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>GetHealthAmount</h3>
 
 <p><img src="images/HealthHUD_GetHealthAmount.png" alt=""></p>
 
-<h2>
-<a id="icon-1" class="anchor" href="#icon-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Icon</h2>
+<h3>
+<a id="icon-1" class="anchor" href="#icon-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Icon</h3>
 
 <p><img src="images/health_hud_icon.png" alt=""></p>
 
-<h3>
-<a id="bloodmarks-hud" class="anchor" href="#bloodmarks-hud" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>BloodMarks HUD</h3>
-
 <h2>
-<a id="designer-2" class="anchor" href="#designer-2" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Designer</h2>
+<a id="bloodmarks-hud" class="anchor" href="#bloodmarks-hud" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>BloodMarks HUD</h2>
+
+<h3>
+<a id="designer-2" class="anchor" href="#designer-2" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Designer</h3>
 
 <p><img src="images/BloodMarks_Designer.png" alt=""></p>
 
-<h2>
-<a id="eventgraph-5" class="anchor" href="#eventgraph-5" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>EventGraph</h2>
+<h3>
+<a id="eventgraph-5" class="anchor" href="#eventgraph-5" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>EventGraph</h3>
 
 <p><img src="images/BloodMarks_EventGraph.png" alt=""></p>
 
-<h2>
-<a id="gethealthamount-2" class="anchor" href="#gethealthamount-2" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>GetHealthAmount</h2>
+<h3>
+<a id="gethealthamount-2" class="anchor" href="#gethealthamount-2" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>GetHealthAmount</h3>
 
 <p><img src="images/BloodMarks_GetBloodMarkColor.png" alt=""></p>
 
-<h2>
-<a id="icon-2" class="anchor" href="#icon-2" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Icon</h2>
+<h3>
+<a id="icon-2" class="anchor" href="#icon-2" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Icon</h3>
 
 <p><img src="images/health_hud_icon.png" alt=""></p>
 
-<h3>
-<a id="death-menu" class="anchor" href="#death-menu" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Death Menu</h3>
-
 <h2>
-<a id="designer-3" class="anchor" href="#designer-3" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Designer</h2>
+<a id="death-menu" class="anchor" href="#death-menu" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Death Menu</h2>
+
+<h3>
+<a id="designer-3" class="anchor" href="#designer-3" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Designer</h3>
 
 <p><img src="images/DeathMenu_Designer.png" alt=""></p>
 
-<h2>
-<a id="eventgraph-6" class="anchor" href="#eventgraph-6" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>EventGraph</h2>
+<h3>
+<a id="eventgraph-6" class="anchor" href="#eventgraph-6" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>EventGraph</h3>
 
 <p><img src="images/DeathMenu_EventGraph.png" alt=""></p>
 
@@ -259,15 +246,18 @@
 <a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
 
 <p>Louis-Guillaume Carrier-Bédard (<a href="https://github.com/lgcarrier" class="user-mention">@lgcarrier</a>)</p>
+      </section>
+    </div>
 
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/lgcarrier/UE4-Stamina-Health-System">UE4-stamina-health-system</a> is maintained by <a href="https://github.com/lgcarrier">lgcarrier</a>.</span>
-
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">UE4-stamina-health-system maintained by <a href="https://github.com/lgcarrier">lgcarrier</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
       </footer>
+    </div>
 
-    </section>
+    
 
-  
   </body>
 </html>
