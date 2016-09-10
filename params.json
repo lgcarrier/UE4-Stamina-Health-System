@@ -1,6 +1,6 @@
 {
   "name": "UE4-stamina-health-system",
   "tagline": "Unreal Engine 4 - Stamina and Health System (Blueprints)",
-  "body": "### \r\nThis is my first experience with Unreal Engine 4 (4.10). I wanted to build a complete stamina and health system for an FPS game.\r\n\r\n### Blueprints for heads-up displays (HUD)\r\n* Stamina HUD\r\n* Health HUD\r\n* Blood Marks HUD\r\n\r\n### Blueprints for systems\r\n* Stamina system\r\n* Health system\r\n* Character Movement system\r\n\r\n### Blueprints for menus\r\n* DeathMenu (used to respawn when you die)\r\n\r\n### Example\r\n(trying to figure out how to easily upload images using github page generator...)\r\n\r\n### Authors and Contributors\r\nLouis-Guillaume Carrier-Bédard (@lgcarrier)\r\n",
+  "body": "### \r\nThis is my first experience with Unreal Engine 4 (4.10). I wanted to build a complete stamina and health system for an FPS game.\r\n\r\n### Blueprints for heads-up displays (HUD)\r\n* Stamina HUD\r\n* Health HUD\r\n* Blood Marks HUD\r\n\r\n### Blueprints for systems\r\n* Stamina system\r\n* Health system\r\n* Character Movement system\r\n\r\n### Blueprints for menus\r\n* DeathMenu (used to respawn when you die)\r\n\r\n### Example\r\n![](images/Character_EventGraph_Init.png)\r\n\r\n### Authors and Contributors\r\nLouis-Guillaume Carrier-Bédard (@lgcarrier)\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
