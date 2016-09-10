@@ -1,25 +1,37 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>UE4-stamina-health-system by lgcarrier</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">UE4-stamina-health-system</h1>
-      <h2 class="project-tagline">Unreal Engine 4 - Stamina and Health System (Blueprints)</h2>
-      <a href="https://github.com/lgcarrier/UE4-Stamina-Health-System" class="btn">View on GitHub</a>
-      <a href="https://github.com/lgcarrier/UE4-Stamina-Health-System/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/lgcarrier/UE4-Stamina-Health-System/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
+<html>
 
-    <section class="main-content">
-      <p>This is my first experience with Unreal Engine 4 (4.10). I wanted to build a complete stamina and health system for an FPS game.</p>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="UE4-stamina-health-system : Unreal Engine 4 - Stamina and Health System (Blueprints)">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>UE4-stamina-health-system</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/lgcarrier/UE4-Stamina-Health-System">View on GitHub</a>
+
+          <h1 id="project_title">UE4-stamina-health-system</h1>
+          <h2 id="project_tagline">Unreal Engine 4 - Stamina and Health System (Blueprints)</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/lgcarrier/UE4-Stamina-Health-System/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/lgcarrier/UE4-Stamina-Health-System/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p>This is my first experience with Unreal Engine 4 (4.10). I wanted to build a complete stamina and health system for an FPS game.</p>
 
 <h3>
 <a id="blueprints-for-heads-up-displays-hud" class="anchor" href="#blueprints-for-heads-up-displays-hud" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Blueprints for heads-up displays (HUD)</h3>
@@ -47,23 +59,54 @@
 </ul>
 
 <h3>
-<a id="example" class="anchor" href="#example" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Example</h3>
+<a id="how-to-use-the-systems" class="anchor" href="#how-to-use-the-systems" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to use the systems</h3>
+
+<h2>
+<a id="initialize-the-systems-within-a-characters-eventgraph-blueprint" class="anchor" href="#initialize-the-systems-within-a-characters-eventgraph-blueprint" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Initialize the systems within a character's EventGraph Blueprint</h2>
 
 <p><img src="images/Character_EventGraph_Init.png" alt=""></p>
+
+<h2>
+<a id="run" class="anchor" href="#run" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Run</h2>
+
+<p><img src="images/Character_EventGraph_Run.png" alt=""></p>
+
+<h2>
+<a id="jump" class="anchor" href="#jump" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Jump</h2>
+
+<p><img src="images/Character_EventGraph_Jump.png" alt=""></p>
+
+<h2>
+<a id="aim" class="anchor" href="#aim" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Aim</h2>
+
+<p><img src="images/Character_EventGraph_Aim.png" alt=""></p>
+
+<h2>
+<a id="tick" class="anchor" href="#tick" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Tick</h2>
+
+<p><img src="images/Character_EventGraph_Tick.png" alt=""></p>
+
+<h2>
+<a id="inflict-damage" class="anchor" href="#inflict-damage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Inflict Damage</h2>
+
+<p><img src="images/Character_EventGraph_InflictDamage.png" alt=""></p>
 
 <h3>
 <a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
 
 <p>Louis-Guillaume Carrier-Bédard (<a href="https://github.com/lgcarrier" class="user-mention">@lgcarrier</a>)</p>
+      </section>
+    </div>
 
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/lgcarrier/UE4-Stamina-Health-System">UE4-stamina-health-system</a> is maintained by <a href="https://github.com/lgcarrier">lgcarrier</a>.</span>
-
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">UE4-stamina-health-system maintained by <a href="https://github.com/lgcarrier">lgcarrier</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
       </footer>
+    </div>
 
-    </section>
+    
 
-  
   </body>
 </html>
