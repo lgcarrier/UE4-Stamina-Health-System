@@ -31,12 +31,13 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <p>This is my first experience with Unreal Engine 4 (4.10). I wanted to build a complete stamina and health system for an FPS game.</p>
+        <p>Stamina and health systems or other similar systems are available to buy on the <a href="https://www.unrealengine.com/marketplace">UE4 Marketplace</a>. I wanted to make something open source so people can learn without having to buy some blueprints.</p>
 
-<h3>
-<a id="blueprints" class="anchor" href="#blueprints" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Blueprints</h3>
-
-<p><img src="images/blueprints.png" alt=""></p>
+<ul>
+<li>The character uses his stamina points when he runs or jumps. Stamina points regenerate themselves after a while.</li>
+<li>The character cannot aim when running.</li>
+<li>The character will lose health points when damage is inflicted. Health points regenerate themselves after a while.</li>
+</ul>
 
 <h2>
 <a id="in-game-examples" class="anchor" href="#in-game-examples" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>In game examples</h2>
@@ -44,15 +45,22 @@
 <h3>
 <a id="hud---stamina--health--bloodmarks" class="anchor" href="#hud---stamina--health--bloodmarks" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>HUD - Stamina + Health + BloodMarks</h3>
 
-<p><img src="images/Forgotten_Shelter_HUD.png" alt=""></p>
+<p>Display numeric indicators and progress bars.<br>
+<img src="images/Forgotten_Shelter_HUD.png" alt=""></p>
 
 <h3>
 <a id="death-menu" class="anchor" href="#death-menu" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Death Menu</h3>
 
-<p><img src="images/Forgotten_Shelter_dead.png" alt=""></p>
+<p>Hide current HUD and character hands before displaying a red background with the menu on top.<br>
+<img src="images/Forgotten_Shelter_dead.png" alt=""></p>
 
 <h2>
 <a id="how-to-use-the-systems" class="anchor" href="#how-to-use-the-systems" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to use the systems</h2>
+
+<h3>
+<a id="blueprints" class="anchor" href="#blueprints" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Blueprints</h3>
+
+<p><img src="images/blueprints.png" alt=""></p>
 
 <h3>
 <a id="initialize-the-systems-within-a-characters-eventgraph-blueprint" class="anchor" href="#initialize-the-systems-within-a-characters-eventgraph-blueprint" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Initialize the systems within a character's EventGraph Blueprint</h3>
